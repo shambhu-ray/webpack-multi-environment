@@ -1,25 +1,20 @@
 {
-  "name": "demo",
+  "name": "webpack-multi-environment",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-dev": "webpack --config webpack.dev.js",
-    "build-stag": "webpack --config webpack.stag.js",
-    "build-prod": "webpack --config webpack.prod.js",
-    "d-build-dev": "webpack --env=dev --mode=development",
-    "d-build-stag": "webpack --env=stag --mode=production",
-    "d-build-prod": "webpack --env=prod --mode=production"
+    "build-dev": "webpack --env=dev --mode=development",
+    "build-stag": "webpack --env=stag --mode=production",
+    "build-prod": "webpack --env=prod --mode=production"
   },
-  "author": "",
+  "author": "Shambhu Kumar",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
-    "dotenv": "^8.2.0",
     "ts-loader": "^8.0.3",
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-merge": "^5.1.4"
+    "webpack-cli": "^3.3.12"
   }
 }

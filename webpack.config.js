@@ -9,7 +9,7 @@ const prodEnv = require('./src/environments/environment.prod.ts');
 
 let environmentConfig;
 
-function setEnvirnmentConfig(env) {
+function setEnvironmentConfig(env) {
     console.log('env -> ', env);
 
     switch (env) {
@@ -29,7 +29,7 @@ function setEnvirnmentConfig(env) {
 }
 
 module.exports = env => {
-    setEnvirnmentConfig(env);
+    setEnvironmentConfig(env);
 
     return {
         entry: './src/index',
