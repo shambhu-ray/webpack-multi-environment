@@ -1,8 +1,8 @@
 ## Multiple Environment in a Single Webpack configuration
 
-branch checkout to `singleWebpackConfig`
+git branch checkout to `singleWebpackConfig`
 
 
 ## Multiple Environment in multiple Webpack configuration
 
-branch checkout to `multiWebpackConfig`
+git branch checkout to `multiWebpackConfig`
